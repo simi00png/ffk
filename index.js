@@ -29,6 +29,7 @@ const {
   const ff = require('fluent-ffmpeg')
   const P = require('pino')
   const config = require('./config')
+  const xml2js = require('xml2js');
   const qrcode = require('qrcode-terminal')
   const StickersTypes = require('wa-sticker-formatter')
   const util = require('util')
