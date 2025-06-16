@@ -12,7 +12,6 @@ const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, 
 const fg = require('api-dylux');
 const cheerio = require('cheerio')
 const vm = require('vm')
-let { img2url } = require('@blackamda/telegram-image-url');
 var imgmsg ="*Give me a anime name !*"
 var descgs = "It gives details of given anime name."
 var cants = "I cant find this anime."
