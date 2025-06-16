@@ -8,7 +8,6 @@ const webp = require('node-webpmux');
 const sharp = require('sharp');
 const axios = require('axios');
 const yts = require("yt-search");
-const xml2js = require('xml2js');
 const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson} = require('../lib/functions');
 const fg = require('api-dylux');
 const cheerio = require('cheerio')
